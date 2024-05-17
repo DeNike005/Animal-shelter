@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #004F6F;
+}
+.Animal{
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header stylin */
+.animal-header{
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    color: #004F6F;
+    font-weight: 600;
+    font-size: 14px;
+}
+.image{
+    height: 90px;
+    width: 172px;
+}
+/* .font{
+    color: #004F6F;
+} */
+.btn{
+    height: 36px;
+    width: 96px;
+    background-color: #BD591F;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #d59169;
+}
+/* .img-text{
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+    padding-top: 90px;
+} */
+.bg-image{
+    height: 650px;
+    width: 100%;
+    background-image: url(../img/cute-dog-sleeping-ai-generated_23-2150643851.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    padding-top: 90px;
+    /* filter: blur(5px); */
+}
+.Shelter{
+   height: 500px;
+   width: 437px;
+   background-color: rgba(0, 116, 163, .8); 
+   text-shadow: 0 0 30px #0074a3;
+   color: #fff;
+   margin: 20px 100px;
+   font-weight: 600;
+   text-align: center;
+}
+#text1{
+    font-size: 48px;
+    padding-top: 60px;
+}
+#text2{
+    font-size: 18px;
+    padding-top: 30px;
+}
+.learn-btn{
+    font-size: 13px;
+    height: 41px;
+    width: 122px;
+    background-color: rgba(255, 255, 255, .95);
+    color: #004F6F;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px transparent;
+    margin-top: 50px;
+}
+.learn-btn:hover{
+    background-color: #009bd9;
+}
