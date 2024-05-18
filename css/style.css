@@ -11,6 +11,9 @@ a{
     display: block;
     color: #004F6F;
 }
+button{
+    cursor: pointer;
+}
 .Animal{
     width: 100%;
     height: 90px;
@@ -139,7 +142,7 @@ a{
     text-decoration: underline;
 }
 .dog-img-text{
-    height: 1000px;
+    height: 700px;
     width: 87%;
     /* background-color: aqua; */
     margin: 60px auto;
@@ -147,7 +150,7 @@ a{
 .dog-text{
     height: 600px;
     width: 339px;
-    margin-bottom: 400px;
+    margin-bottom: 100px;
 }
 .dog-img{
     height: 226px;
@@ -177,4 +180,142 @@ a{
 }
 .buy-btn:hover{
     background-color: #0074a3;
+}
+#stories-cont{
+    height: 100px;
+    width: 87%;
+    /* background-color: aquamarine; */
+    margin: 10px auto;
+    display: flex;
+    color: #004F6F;
+    font-weight: 400;
+}
+#cont1{
+    height: 100%;
+    width: 70%;
+    /* background-color: #d59169; */
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+}
+#cont2{
+    height: 100%;
+    width: 30%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.story-btn{
+    height: 41px;
+    width: 132px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #004F6F;
+    margin-top: 30px;
+    font-size: 13px;
+}
+.story-btn:hover{
+    background-color: #0074a3;
+}
+.animalCards-cont{
+    height: 500px;
+    width: 87%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    
+}
+.cards-cont{
+    height: 180px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.animal-cards{
+    height: 162px;
+    width: 530px;
+    background-color: #EEF3FA;
+    display: flex;
+}
+.Creative-imgs{
+    height: 100%;
+    width: 237px;
+}
+.Creative-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #004F6F;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+#expert-cont{
+    height: 259px;
+    width: 100%;
+    background-color: #EEF3FA;
+    text-align: center;
+    padding-top: 50px;
+    margin: 60px 0;
+}
+#p-advice{
+    color: #0086BC;
+    font-size: 16px;
+    font-weight: 600;
+}
+#help-line{
+    font-size: 26px;
+    font-weight: 700;
+    color: #004F6F;
+    padding-top: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+#p-care{
+    padding-top: 30px;
+}
+#L-btn{
+    margin-top: 40px;
+}
+#donate-container{
+    height: 360px;
+    width: 87%;
+    margin: 50px auto;
+    /* background-color: aqua; */
+    display: flex;
+    font-weight: 700;
+}
+#help-cont1{
+    height: 400px;
+    width: 65%;
+    /* background-color: #d59169; */
+    padding-top: 130px;
+}
+#help-cont2{
+    height: 400px;
+    width: 35%;
+    /* background-color: #EEF3FA; */
+    padding-top: 160px;
+    text-align: center;
+    padding-left: 30pxg;
+}
+#safe-text{
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .35);
+    display: flex;
+}
+#give-text{
+    font-size: 22px;
+    color: #004F6F;
+    padding-bottom: 15px;
+}
+#donate-btn{
+    height: 44px;
+    width: 125px;
+    background-color: #004F6F;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
 }
