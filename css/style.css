@@ -23,7 +23,7 @@ button{
     background-color: #fff;
     position: fixed;
     top: 0;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .flex{
     display: flex;
@@ -61,12 +61,6 @@ button{
 .btn:hover{
     background-color: #d59169;
 }
-/* .img-text{
-    height: 800px;
-    width: 100%;
-    background-color: aqua;
-    padding-top: 90px;
-} */
 .bg-image{
     height: 650px;
     width: 100%;
@@ -75,7 +69,6 @@ button{
     background-size: cover;
     background-position: 100%;
     padding-top: 90px;
-    /* filter: blur(5px); */
 }
 .Shelter{
    height: 500px;
@@ -85,7 +78,6 @@ button{
    color: #fff;
    margin-top: 30px;
    margin-left: 80px;
-   /* margin: 20px 95px; */
    font-weight: 600;
    text-align: center;
 }
@@ -408,21 +400,22 @@ button{
 }
 #footer{
     width: 100%;
-    height: 40px;
+    height: 60px;
     background-color: #004F6F;
 }
 #footer-0{
     height: 100%;
     width: 87%;
     margin: 0 auto;
-    background-color: #EEF3FA;
+    /* background-color: #EEF3FA; */
     display: flex;
     color: #fff;
 }
 #footer-1{
     height: 100%;
     width: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    margin-bottom: 10px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -430,14 +423,41 @@ button{
 #footer-2{
     height: 100%;
     width: 50%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
+    /* gap: 10px; */
     
 }
 .link-contact{
     color: #fff;
-    border-right: 3px solid #fff;
-    
+    height: 12px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    /* background-color: #BD591F; */
+    border-right: 2px solid #0086BC;
+    padding-right: 10px;
+    /* padding-top: 2px; */
+}
+#contact-box{
+    width: 100px;
+    /* background-color: greenyellow; */
+}
+#location-box{
+    width: 120px;
+    /* background: red; */
+}
+#career-box{
+    width: 60px;
+    /* background-color: #d59169; */
+}
+#privacy-box{
+    width: 95px;
+    /* background-color: bisque; */
+    border: none;
 }
