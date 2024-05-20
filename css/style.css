@@ -277,6 +277,9 @@ button{
 #L-btn{
     margin-top: 40px;
 }
+.borad{
+    border-radius: 4px;
+}
 #donate-container{
     height: 360px;
     width: 87%;
@@ -326,23 +329,115 @@ button{
     height: 300px;
     width: 100%;
     background-color: #0074A3;
-    /* display: flex; */
-    /* padding-left: 80px; */
 }
 #sub-contx{
     height: 300px;
     width: 87%;
     margin: 0 auto;
-    background-color: #303030;
+    /* background-color: #303030; */
     display: flex;
 }
 .sub-cont1{
     height: 293px;
     width: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    padding-top: 40px;
+    color: #fff;
 }
 .sub-cont2{
     height: 293px;
     width: 50%;
+    /* background-color: aquamarine; */
+    padding-top: 40px;
+}
+#connect{
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+#border{
+    border-bottom: 3px solid #0086BC;
+    width: 60px;
+    padding-top: 40px;
+}
+#p-letter{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 40px;
+    border-right: black;
+}
+.fa-brands{
+    height: 45px;
+    width: 45px;
+    border-radius: 22px;
+    gap: 30px;
+    background-color: #0086BC;
+    margin-top: 30px;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+.inputs{
+    height: 40px;
+    width: 49%;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.email{
+    width: 99%;
+    margin-top: 10px;
+}
+#sign-btn{
+    height: 41px;
+    width: 95px;
+    text-transform: uppercase;
+    background-color: #0086BC;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    margin: 40px 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    /* padding: 10px 20px; */
+}
+#sign-btn:hover{
+    background-color: #fff;
+    color: #0086BC;
+}
+#footer{
+    width: 100%;
+    height: 40px;
+    background-color: #004F6F;
+}
+#footer-0{
+    height: 100%;
+    width: 87%;
+    margin: 0 auto;
+    background-color: #EEF3FA;
+    display: flex;
+    color: #fff;
+}
+#footer-1{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#footer-2{
+    height: 100%;
+    width: 50%;
     background-color: aquamarine;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.link-contact{
+    color: #fff;
+    border-right: 3px solid #fff;
+    
 }
