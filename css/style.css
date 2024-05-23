@@ -1,37 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     display: block;
     color: #004F6F;
+    cursor: default;
 }
-button{
-    cursor: pointer;
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.fa-solid{
-    cursor: pointer;
-}
-.Animal{
+
+.nav-cont1{
+    z-index: 999;
     width: 100%;
     height: 90px;
     background-color: #fff;
     position: fixed;
     top: 0;
-    /* z-index: 1; */
 }
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* header stylin */
-.animal-header{
+.nav-cont2{
     width: 90%;
     height: 100%;
     background-color: #fff;
@@ -40,14 +36,12 @@ button{
     font-weight: 600;
     font-size: 14px;
 }
-.image{
+
+.image {
     height: 90px;
     width: 172px;
 }
-/* .font{
-    color: #004F6F;
-} */
-.btn{
+.btn {
     height: 36px;
     width: 96px;
     background-color: #BD591F;
@@ -58,10 +52,12 @@ button{
     text-transform: uppercase;
     border-radius: 5px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #d59169;
 }
-.bg-image{
+
+.bg-image {
     height: 650px;
     width: 100%;
     background-image: url(../img/cute-dog-sleeping-ai-generated_23-2150643851.jpg);
@@ -70,26 +66,30 @@ button{
     background-position: 100%;
     padding-top: 90px;
 }
-.Shelter{
-   height: 500px;
-   width: 437px;
-   background-color: rgba(0, 116, 163, .8); 
-   text-shadow: 0 0 30px #0074a3;
-   color: #fff;
-   margin-top: 30px;
-   margin-left: 80px;
-   font-weight: 600;
-   text-align: center;
+
+.Shelter {
+    height: 500px;
+    width: 437px;
+    background-color: rgba(0, 116, 163, .8);
+    text-shadow: 0 0 30px #0074a3;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 600;
+    text-align: center;
 }
-#text1{
+
+#text1 {
     font-size: 48px;
     padding-top: 60px;
 }
-#text2{
+
+#text2 {
     font-size: 18px;
     padding-top: 30px;
 }
-.learn-btn{
+
+.learn-btn {
     font-size: 13px;
     height: 41px;
     width: 122px;
@@ -100,10 +100,12 @@ button{
     border: 1px transparent;
     margin-top: 50px;
 }
-.learn-btn:hover{
+
+.learn-btn:hover {
     background-color: #009bd9;
 }
-.Adc-container{
+
+.Adc-container {
     height: 100px;
     width: 100%;
     background-color: #0B7AA6;
@@ -113,57 +115,66 @@ button{
     font-weight: 400;
     color: #fff;
 }
-.Adc-cont{
+
+.Adc-cont {
     height: 100%;
     width: 87%;
-    /* background-color: aqua; */
     display: flex;
 }
-.A-container{
+
+.A-container {
     height: 100%;
     width: 364px;
     background-color: #18769B;
     padding-top: 30px;
 }
-.d-cont{
+
+.d-cont {
     background-color: #1B82AC;
 }
-.adc-tags{
+
+.adc-tags {
     color: #fff;
     font-size: 25px;
-    
+
 }
-.adc-tags:hover{
+
+.adc-tags:hover {
     text-decoration: underline;
 }
-.dog-img-text{
+
+.dog-img-text {
     height: 700px;
     width: 87%;
-    /* background-color: aqua; */
     margin: 60px auto;
 }
-.dog-text{
+
+.dog-text {
     height: 600px;
     width: 339px;
     margin-bottom: 100px;
 }
-.dog-img{
+
+.dog-img {
     height: 226px;
     width: 339px;
 }
-.p1{
+
+.p1 {
     font-weight: 600;
     font-size: 26px;
     color: #004F6F;
     padding-top: 12px;
 }
-.p2{
+
+.p2 {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
     padding-top: 12px;
 }
-.buy-btn{
+
+.buy-btn {
     height: 41px;
     width: 100px;
     font-size: 13px;
@@ -173,35 +184,37 @@ button{
     background-color: transparent;
     margin: 7px 0;
 }
-.buy-btn:hover{
+
+.buy-btn:hover {
     background-color: #0074a3;
 }
-#stories-cont{
+
+#stories-cont {
     height: 100px;
     width: 87%;
-    /* background-color: aquamarine; */
     margin: 10px auto;
     display: flex;
     color: #004F6F;
     font-weight: 400;
 }
-#cont1{
+
+#cont1 {
     height: 100%;
     width: 70%;
-    /* background-color: #d59169; */
     display: flex;
     align-items: center;
     font-size: 34px;
 }
-#cont2{
+
+#cont2 {
     height: 100%;
     width: 30%;
-    /* background-color: yellowgreen; */
     display: flex;
     justify-content: flex-end;
-    
+
 }
-.story-btn{
+
+.story-btn {
     height: 41px;
     width: 132px;
     background-color: transparent;
@@ -210,32 +223,36 @@ button{
     margin-top: 30px;
     font-size: 13px;
 }
-.story-btn:hover{
+
+.story-btn:hover {
     background-color: #0074a3;
 }
-.animalCards-cont{
+
+.animalCards-cont {
     height: 500px;
     width: 87%;
-    /* background-color: aqua; */
     margin: 0 auto;
-    
+
 }
-.cards-cont{
+
+.cards-cont {
     height: 180px;
     width: 100%;
-    /* background-color: antiquewhite; */
 }
-.animal-cards{
+
+.animal-cards {
     height: 162px;
     width: 530px;
     background-color: #EEF3FA;
     display: flex;
 }
-.Creative-imgs{
+
+.Creative-imgs {
     height: 100%;
     width: 237px;
 }
-.Creative-text{
+
+.Creative-text {
     font-size: 18px;
     font-weight: 600;
     color: #004F6F;
@@ -243,7 +260,8 @@ button{
     align-items: center;
     padding-left: 40px;
 }
-#expert-cont{
+
+#expert-cont {
     height: 259px;
     width: 100%;
     background-color: #EEF3FA;
@@ -251,62 +269,69 @@ button{
     padding-top: 50px;
     margin: 60px 0;
 }
-#p-advice{
+
+#p-advice {
     color: #0086BC;
     font-size: 16px;
     font-weight: 600;
 }
-#help-line{
+
+#help-line {
     font-size: 26px;
     font-weight: 700;
     color: #004F6F;
     padding-top: 10px;
-    /* font-family: Arial, Helvetica, sans-serif; */
 }
-#p-care{
+
+#p-care {
     padding-top: 30px;
 }
-#L-btn{
+
+#L-btn {
     margin-top: 40px;
 }
-.borad{
+
+.borad {
     border-radius: 4px;
 }
-#donate-container{
+
+#donate-container {
     height: 360px;
     width: 87%;
     margin: 50px auto;
-    /* background-color: aqua; */
     display: flex;
     font-weight: 700;
 }
-#help-cont1{
+
+#help-cont1 {
     height: 400px;
     width: 65%;
-    /* background-color: #d59169; */
     padding-top: 130px;
 }
-#help-cont2{
+
+#help-cont2 {
     height: 400px;
     width: 35%;
-    /* background-color: #EEF3FA; */
     padding-top: 160px;
     text-align: center;
     padding-left: 30pxg;
 }
-#safe-text{
+
+#safe-text {
     font-size: 32px;
     color: #fff;
     text-align: left;
     text-shadow: 0 0 10px rgba(0, 0, 0, .35);
     display: flex;
 }
-#give-text{
+
+#give-text {
     font-size: 22px;
     color: #004F6F;
     padding-bottom: 15px;
 }
-#donate-btn{
+
+#donate-btn {
     height: 44px;
     width: 125px;
     background-color: #004F6F;
@@ -317,48 +342,53 @@ button{
     font-weight: 600;
     font-size: 13px;
 }
-#sub-cont{
+
+#sub-cont {
     height: 300px;
     width: 100%;
     background-color: #0074A3;
 }
-#sub-contx{
+
+#sub-contx {
     height: 300px;
     width: 87%;
     margin: 0 auto;
-    /* background-color: #303030; */
     display: flex;
 }
-.sub-cont1{
+
+.sub-cont1 {
     height: 293px;
     width: 50%;
-    /* background-color: aqua; */
     padding-top: 40px;
     color: #fff;
 }
-.sub-cont2{
+
+.sub-cont2 {
     height: 293px;
     width: 50%;
-    /* background-color: aquamarine; */
     padding-top: 40px;
 }
-#connect{
+
+#connect {
     font-weight: 600;
     font-size: 14px;
-    
+
 }
-#border{
+
+#border {
     border-bottom: 3px solid #0086BC;
     width: 60px;
     padding-top: 40px;
 }
-#p-letter{
+
+#p-letter {
     font-size: 24px;
     font-weight: 700;
     padding-top: 40px;
     border-right: black;
 }
-.fa-brands{
+
+.fa-brands {
     height: 45px;
     width: 45px;
     border-radius: 22px;
@@ -369,7 +399,8 @@ button{
     padding-top: 12px;
     padding-left: 15px;
 }
-.inputs{
+
+.inputs {
     height: 40px;
     width: 49%;
     border: none;
@@ -377,11 +408,13 @@ button{
     font-size: 16px;
     font-weight: 400;
 }
-.email{
+
+.email {
     width: 99%;
     margin-top: 10px;
 }
-#sign-btn{
+
+#sign-btn {
     height: 41px;
     width: 95px;
     text-transform: uppercase;
@@ -392,71 +425,73 @@ button{
     margin: 40px 0 10px;
     font-size: 13px;
     font-weight: 600;
-    /* padding: 10px 20px; */
 }
-#sign-btn:hover{
+
+#sign-btn:hover {
     background-color: #fff;
     color: #0086BC;
 }
-#footer{
+
+#footer {
     width: 100%;
     height: 60px;
     background-color: #004F6F;
 }
-#footer-0{
+
+#footer-0 {
     height: 100%;
     width: 87%;
     margin: 0 auto;
-    /* background-color: #EEF3FA; */
     display: flex;
     color: #fff;
 }
-#footer-1{
+
+#footer-1 {
     height: 100%;
     width: 50%;
-    /* background-color: aqua; */
     margin-bottom: 10px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
-#footer-2{
+
+#footer-2 {
     height: 100%;
     width: 50%;
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-weight: 600;
     font-size: 12px;
-    /* gap: 10px; */
-    
+
 }
-.link-contact{
+.link-contact {
     color: #fff;
     height: 12px;
     width: 100px;
     display: flex;
     text-align: center;
     justify-content: flex-end;
-    /* background-color: #BD591F; */
     border-right: 2px solid #0086BC;
     padding-right: 10px;
-    /* padding-top: 2px; */
+    
 }
-#contact-box{
+
+#contact-box {
     width: 100px;
     /* background-color: greenyellow; */
 }
-#location-box{
+
+#location-box {
     width: 120px;
     /* background: red; */
 }
-#career-box{
+
+#career-box {
     width: 60px;
     /* background-color: #d59169; */
 }
-#privacy-box{
+
+#privacy-box {
     width: 95px;
     /* background-color: bisque; */
     border: none;
